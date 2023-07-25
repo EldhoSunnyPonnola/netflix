@@ -1,16 +1,15 @@
-.main{
+.main1{
 background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/95bae10c-9773-4447-af4e-612a244231bd/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg" );
    width: 100%;
    background-position: center;
-   
+   background-size: cover;
    background-repeat: no-repeat;
-   height: 400px;
+   height:800px;
 }
 .sub{
     display: flex;
     justify-content:space-between ;
     align-items: center;
- 
     
 }
 .label{
@@ -19,20 +18,25 @@ background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-
     align-items: center;
     margin-right: 280px;
     gap: 30px;
-
 }
 .head{
 
     color: red;
     padding-left: 150px;
     font-family: 'Barlow', sans-serif;
-
+font-size: 40px;
     
     
 }
 .label input{
-    width: 70px;
+    width: 140px;
+    height: 28px;
+    text-align: center;
 
+}
+.label select{
+    width: 120px;
+    height: 28px;
 }
 .text{
     color: white;
@@ -42,14 +46,22 @@ background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-
 .text h1{
     color: white;
     text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+}
+.text p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
 }
 .text button{
     background-color: red;
     color: white;
-    height: 30px;
+    height: 38px;
+    width: 180px;
 }
 .text input{
     height: 30px;
+    width: 180px;
 }
 .sub1{
     display: flex;
@@ -57,12 +69,197 @@ background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-
     /* margin-top: 135px; */
     background-color: black;
     color: white;
-    height: 100%;
-    gap: 20%;
+    height: 800px;
+    gap: 10%;
 }
 .sub2{
-font-size: 20px;
-padding-left: 180px;
-padding-top: 40px;
+font-size: 30px;
+padding-left: 250px;
+padding-top: 250px;
 
+}
+.sub2 p{
+   
+    font-family: 'Barlow', sans-serif; 
+}
+.sub1 img{
+    padding-left: 30px;
+    padding-top: 130px;
+}
+.sub1 h1{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.sub1 p{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+.sub5{
+    display: flex;
+    border-top: 8px solid grey;
+    /* margin-top: 135px; */
+    background-color: black;
+    color: white;
+    height: 800px;
+    gap: 10%;
+}
+.sub5 img{
+    padding-left: 30px;
+    padding-top: 180px;
+}
+.sub5 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+.hd{
+    margin-top: -170px;
+}
+.sub-a1{
+    display: flex;
+    background-color: black;
+    color: white;
+ 
+     border-top: 8px solid grey;
+    font-size: 20px;
+    height: 800px;
+}
+.sub-a1 h1 {
+    text-align: center;
+    padding-left:300px;
+    padding-top: 160px;
+    font-size: 60px;
+    font-family: 'Barlow', sans-serif;
+}
+.sub-a1 p {
+    text-align: center;
+    padding-left: 400px;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+.sub-a1 img{
+    padding-top: 80px;
+    padding-left: 300px;
+}
+
+
+
+.sub-a3{
+    display: flex;
+    border-top: 8px solid grey;
+    /* margin-top: 135px; */
+    background-color: black;
+    color: white;
+    height: 800%;
+    gap: 10%;
+}
+.sub-a4{
+font-size: 30px;
+padding-left: 250px;
+padding-top: 90px;
+
+}
+.sub-a3{
+    display: flex;
+    background-color: black;
+    color: white;
+ 
+     border-top: 8px solid grey;
+    font-size: 20px;
+    height: 600px;
+}
+.sub-a4 h1 {
+    text-align: center;
+    padding-left:30px;
+    padding-top: 110px;
+    font-size: 60px;
+    font-family: 'Barlow', sans-serif;
+}
+.sub-a4 p {
+    text-align: center;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+.sub-a3 img{
+    padding-top: 80px;
+    padding-left: 150px;
+}
+.list{
+    
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    border-top: 8px solid grey;
+    padding-top:100px ;
+    padding-left: 570px;
+    
+    
+
+}
+.li{
+    background-color: grey;
+    margin: 30px;
+    width: 1060px;
+    height: 80px;
+    padding-top: 30px;
+    padding-left:20px
+}
+.list h1{
+    padding-left: 40px;
+    font-size: 80px;
+    font-family: 'Barlow', sans-serif;
+}
+.li span{
+    align-items: end;
+}
+
+.sub6 input{
+    height: 30px;
+    width: 280px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+.sub6 button{
+    height: 40px;
+    width: 180px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.sub6{
+    padding-left: 100px;
+}
+
+.loo{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-top: 8px solid grey;
+    height: 500px;
+ justify-content: center;
+ padding-top: 200px;
+ font-size: 30px;
+ padding-left:380px;
+ font-family: 'Barlow', sans-serif;
+
+}
+.drop{
+    height: 20px;
+    padding-top: 390px;
+    padding-right: 90px;
+}
+.drop p{
+padding-right: 280px;
+font-family: 'Barlow', sans-serif;
+}
+.sub6 p{
+    
+    font-family: 'Barlow', sans-serif;
 }
