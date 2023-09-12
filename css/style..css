@@ -17,14 +17,14 @@ background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-
     justify-content: end;
     align-items: center;
     margin-right: 280px;
-    gap: 30px;
+    gap: 30px;padding-bottom: 100px;
 }
 .head{
 
     color: red;
     padding-left: 150px;
     font-family: 'Barlow', sans-serif;
-font-size: 40px;
+font-size: 30px;
     
     
 }
@@ -73,9 +73,9 @@ font-size: 40px;
     gap: 10%;
 }
 .sub2{
-font-size: 30px;
-padding-left: 250px;
-padding-top: 250px;
+font-size: 20px;
+padding-left: 100px;
+padding-top: 300px;
 
 }
 .sub2 p{
@@ -126,20 +126,20 @@ padding-top: 250px;
     height: 800px;
 }
 .sub-a1 h1 {
-    text-align: center;
+    /* text-align: center; */
     padding-left:300px;
     padding-top: 160px;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Barlow', sans-serif;
 }
 .sub-a1 p {
-    text-align: center;
-    padding-left: 400px;
+    /* text-align: center; */
+    padding-left: 300px;
     font-size: 30px;
     font-family: 'Barlow', sans-serif;
 }
 .sub-a1 img{
-    padding-top: 80px;
+    padding-top: 180px;
     padding-left: 300px;
 }
 
@@ -170,14 +170,14 @@ padding-top: 90px;
     height: 600px;
 }
 .sub-a4 h1 {
-    text-align: center;
+    /* text-align: center; */
     padding-left:30px;
-    padding-top: 110px;
-    font-size: 60px;
+    padding-top: 10px;
+    font-size: 40px;
     font-family: 'Barlow', sans-serif;
 }
 .sub-a4 p {
-    text-align: center;
+    /* text-align: center; */
     padding-left: 30px;
     font-size: 30px;
     font-family: 'Barlow', sans-serif;
